@@ -1,0 +1,17 @@
+- states = ["Colorado", "New York", "Pennyslvania", "Ohio", "Utah"]
+- cities = ["Denver", "Albany", "Philidelphia", "Boise", "Moab" ]
+
+
+%h2
+  States
+%ul
+- states.each do |state|
+  %li= state
+
+
+
+%h2
+  Cities
+%ul
+- cities.each do |city|
+  %li= city
